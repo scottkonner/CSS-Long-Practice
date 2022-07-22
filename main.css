@@ -1,0 +1,49 @@
+html,
+body {
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.nav__upper {
+    padding: 20px;
+    position: relative;
+    /* border-bottom: 2px solid black; */
+    display: inline-block;
+}
+
+.upper__left {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+
+}
+
+.upper__right {
+    position: fixed;
+    top: 35px;
+    right: 10px;
+    display: inline-block;
+}
+
+.sign-in{
+    color:rgb(37, 120, 37);
+}
+
+.get-started{
+    color:rgb(37, 120, 37);
+    border: 2px solid rgb(37, 120, 37);
+    border-radius: 2px;
+}
+
+.nav__lower{
+    text-align: center;
+    word-spacing: 100px;
+
+}
+
+a:any-link{
+    text-decoration: none;
+    color:beige
+}
